@@ -1,6 +1,7 @@
-import { Search, User, Menu } from "lucide-react";
+import { Search, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import AuthButtons from "@/components/AuthButtons";
 
 const Navigation = () => {
   return (
@@ -47,13 +48,7 @@ const Navigation = () => {
                 className="pl-10 w-64 bg-gray-800 border-gray-700 text-white placeholder-gray-400"
               />
             </div>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-gray-300 hover:text-white"
-            >
-              <User className="w-5 h-5" />
-            </Button>
+            <AuthButtons />
             <Button
               variant="ghost"
               size="icon"
