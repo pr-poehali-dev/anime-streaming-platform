@@ -9,7 +9,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-8">
             <div className="text-2xl font-bold text-white">
-              Ani<span className="text-purple-400">Stream</span>
+              El<span className="text-purple-400">core</span>
             </div>
             <div className="hidden md:flex space-x-6">
               <a
